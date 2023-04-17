@@ -1,2 +1,2 @@
-./webpack-main/node_modules/
-./webpack-sub/node_modules/
+webpack-main/node_modules/
+webpack-sub/node_modules/
