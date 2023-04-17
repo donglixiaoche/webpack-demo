@@ -8,6 +8,7 @@ const isProduction = process.env.NODE_ENV == 'production';
 
 
 const config = {
+    mode: 'production',
     entry: './src/index.js',
     output: {
         path: path.resolve(__dirname, 'dist'),
@@ -17,7 +18,7 @@ const config = {
         host: 'localhost',
         port: 8081,
         devMiddleware: {
-            writeToDisk: true,
+            writeToDisk: false,
         },
         historyApiFallback: true,
     },
