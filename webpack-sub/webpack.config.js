@@ -25,7 +25,8 @@ const config = {
         // Add your plugins here
         // Learn more about plugins from https://webpack.js.org/configuration/plugins/
         new HtmlWebpackPlugin({
-            template: './index.html'
+            template: './index.html',
+            minify: false,
         }),
         new ModuleFederationPlugin({
             name: 'subApp',
@@ -48,6 +49,9 @@ const config = {
             // Add your rules for custom modules here
             // Learn more about loaders from https://webpack.js.org/loaders/
         ],
+    },
+    optimization: {
+        minimize: false,
     },
 };
 
