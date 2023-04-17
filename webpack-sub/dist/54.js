@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_webpack_project=self.webpackChunkmy_webpack_project||[]).push([[54],{54:(e,t,c)=>{c.r(t),c.d(t,{default:()=>s});const s={title:"Title-sub",content:"Content-sub"}}}]);
